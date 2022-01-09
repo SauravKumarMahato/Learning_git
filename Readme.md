@@ -2,7 +2,9 @@
 
 It is the repository made by me while learning git from the video of Code With Harry in Youtube. All the files and folder are made in learning phase from the reference of that video. 
 
-Video link of the Git video: https://youtu.be/gwWKnnCMQ5c
+![Have_Video](https://img.shields.io/badge/Have_Video!-Yes-54b09f.svg)
+
+***Video link of the Git video: https://youtu.be/gwWKnnCMQ5c***
 
 ## Things we learned in the video
 * Initializing repository
