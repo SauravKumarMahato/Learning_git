@@ -1,10 +1,10 @@
-##Repository Name: Learning_git
+#  Repository Name: Learning_git
 
 It is the repository made by me while learning git from the video of Code With Harry in Youtube. All the files and folder are made in learning phase from the reference of that video. 
 
-[Video link of the Git video:](https://youtu.be/gwWKnnCMQ5c)
+Video link of the Git video: https://youtu.be/gwWKnnCMQ5c
 
-Things we learned in the video
+## Things we learned in the video
 * Initializing repository
 * Making different files and folders
 * About .gitignore
@@ -17,7 +17,7 @@ Things we learned in the video
 * About Readme.md file of github
 * Uploading your local repository(in your computer) to github website
 
-##Main commands we used throughout this video are:
+## Main commands we used throughout this video are:
 * git init
 * git status
 * git status -s
@@ -28,11 +28,13 @@ Things we learned in the video
 * git switch branchname
 * git merge branchname
 * git rm --cached
+* git log -p -1
+* git log -p -2
+* git log --oneline
 * touch somefile
-* mkdir
 * git remote add origin GitProfileLink
-
-
+* mkdir
+* rmdir
 
 Hope this video and this repository will help you to learn git.
 
