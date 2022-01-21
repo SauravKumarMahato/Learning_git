@@ -20,24 +20,24 @@ It is the repository made by me while learning git from the video of Code With H
  - Uploading your local repository(in your computer) to github repository`(remote repository)`
 
 ## Main commands we used throughout this video are:
-```sh
- git init
- git status
- git status -s
- git checkout yourfilename.extension
- git checkout -f
- git branch branch_name
- git checkout branch_name
- git switch branch_name
- git merge branch_name
- git rm --cached
- git log -p -1
- git log -p -2
- git log --oneline
- touch somefile
- git remote add origin GitProfileLink
- mkdir
- rmdir
+```diff
+- git init
+- git status
+- git status -s
+- git checkout yourfilename.extension
+- git checkout -f
+- git branch branch_name
+- git checkout branch_name
+- git switch branch_name
+- git merge branch_name
+- git rm --cached
+- git log -p -1
+- git log -p -2
+- git log --oneline
+- touch somefile
+- git remote add origin GitProfileLink
+- mkdir
+- rmdir
 ```
 ### Hope this video and this repository will help you to learn git.
 
