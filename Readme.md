@@ -21,23 +21,23 @@ It is the repository made by me while learning git from the video of Code With H
 
 ## Main commands we used throughout this video are:
 ```diff
-- git init
-- git status
-- git status -s
-- git checkout yourfilename.extension
-- git checkout -f
-- git branch branch_name
-- git checkout branch_name
-- git switch branch_name
-- git merge branch_name
-- git rm --cached
-- git log -p -1
-- git log -p -2
-- git log --oneline
-- touch somefile
-- git remote add origin GitProfileLink
-- mkdir
-- rmdir
+ git init
+ git status
+ git status -s
+ git checkout yourfilename.extension
+ git checkout -f
+ git branch branch_name
+ git checkout branch_name
+ git switch branch_name
+ git merge branch_name
+ git rm --cached
+ git log -p -1
+ git log -p -2
+ git log --oneline
+ touch somefile
+ git remote add origin GitProfileLink
+ mkdir
+ rmdir
 ```
 ### Hope this video and this repository will help you to learn git.
 
