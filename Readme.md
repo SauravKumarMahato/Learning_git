@@ -34,8 +34,11 @@ It is the repository made by me while learning git from the video of Code With H
  git log -p -1
  git log -p -2
  git log --oneline
- touch somefile
  git remote add origin GitProfileLink
+ git push origin master
+ git push -u origin master
+ git push
+ touch somefile
  mkdir
  rmdir
 ```
