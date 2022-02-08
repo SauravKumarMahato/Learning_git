@@ -21,24 +21,25 @@ It is the repository made by me while learning git from the video of Code With H
 
 ## Main commands we used throughout this video are:
 ```diff
- git init
- git status
- git status -s
- git checkout yourfilename.extension
- git checkout -f
- git branch branch_name
- git checkout branch_name
- git switch branch_name
- git merge branch_name
- git rm --cached
- git log -p -1
- git log -p -2
- git log --oneline
- git remote add origin GitProfileLink
+ git init   (start your repository)
+ git status (check status)
+ git status -s  (smart status check)
+ git checkout yourfilename.extension    (undo uncommitted changes)
+ git checkout -f    (undo uncommitted changes forcely)
+ git branch (check which branch you are in)
+ git branch branch_name (create a branch)
+ git checkout branch_name   (move to that branch)
+ git switch branch_name (move to that branch   )
+ git merge branch_name (merge the branch in current branch)
+ git rm --cached (remove the files from staging area)
+ git log -p -1  (shows last log)
+ git log -p -2  (shows last two logs)
+ git log --oneline  (shows each log commits in oneline)
+ git remote add origin GitProfileLink   (connecting to remote repository)
  git push origin master
- git push -u origin master
- git push
- touch somefile
+ git push -u origin master  (creating upstream for branch master here)
+ git push   (directly push if upstream is already created)
+ touch somefile (make file using touch)
  mkdir
  rmdir
 ```
