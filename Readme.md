@@ -1,12 +1,24 @@
-#  `Repository Name: Learning_git`
+
+## Git pro book:
+https://github.com/progit/progit2/releases/download/2.1.339/progit.pdf
+
+### Git concise material
+https://git-scm.com/docs/gittutorial
+
+### Git cheatsheet
+https://training.github.com/downloads/github-git-cheat-sheet.pdf
+
+### Git visual cheatsheet
+https://ndpsoftware.com/git-cheatsheet.html#loc=index;
 
 It is the repository made by me while learning git from the video of Code With Harry in Youtube. All the files and folder are made in learning phase from the reference of that video. 
 
-![Have_Video](https://img.shields.io/badge/Have_Video!-Yes-54b09f.svg)
+![Have_Video](https://img.shields.io/badge/Let's_start!-OK-54b09f.svg)
 
-***`Video link of the Git video:` https://youtu.be/gwWKnnCMQ5c***
+### You may take a video reference (CodeWithHarry, indian youtuber)
+https://youtu.be/gwWKnnCMQ5c
 
-## Things we learned in the video
+## Things we will learn :
  - Initializing repository
  - Making different files and folders
  - About `.gitignore`
@@ -19,11 +31,12 @@ It is the repository made by me while learning git from the video of Code With H
  - About `Readme.md` file of github
  - Uploading your local repository(in your computer) to github repository`(remote repository)`
 
-## Main commands we used throughout this video are:
+## Main and general commands that we use mostly.
+- Refer to book for the required command if not found here.
 ```diff
  git init---------------------------------------- (start your repository)
  git status-------------------------------------- (check status)
- git status -s ---------------------------------- (smart status check)
+ git status -s ---------------------------------- (short status check)
  git checkout yourfilename.extension------------- (undo uncommitted changes)
  git checkout -f -------------------------------- (undo uncommitted changes forcely)
  git branch ------------------------------------- (check which branch you are in)
@@ -31,7 +44,9 @@ It is the repository made by me while learning git from the video of Code With H
  git checkout branch_name ----------------------- (move to that branch)
  git switch branch_name ------------------------- (move to that branch)
  git merge branch_name--------------------------- (merge the branch in current branch)
- git rm --cached--------------------------------- (remove the files from staging area)
+ git rm --cached filename------------------------ (remove the files from staging area)
+ git log ---------------------------------------- (to view your log history containing your commit history)
+ git log --pretty=oneline ----------------------- (to view log in oneline format)
  git log -p -1 ---------------------------------- (shows last log)
  git log -p -2 ---------------------------------- (shows last two logs)
  git log --oneline ------------------------------ (shows each log commits in oneline)
