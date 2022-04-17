@@ -2,13 +2,13 @@
 ## Git pro book:
 https://github.com/progit/progit2/releases/download/2.1.339/progit.pdf
 
-### Git concise material
+## Git concise material
 https://git-scm.com/docs/gittutorial
 
-### Git cheatsheet
+## Git cheatsheet
 https://training.github.com/downloads/github-git-cheat-sheet.pdf
 
-### Git visual cheatsheet
+## Git visual cheatsheet
 https://ndpsoftware.com/git-cheatsheet.html#loc=index;
 
 It is the repository made by me while learning git from the video of Code With Harry in Youtube. All the files and folder are made in learning phase from the reference of that video. 
