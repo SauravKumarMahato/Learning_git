@@ -11,7 +11,6 @@ https://training.github.com/downloads/github-git-cheat-sheet.pdf
 ## Git visual cheatsheet
 https://ndpsoftware.com/git-cheatsheet.html#loc=index;
 
-It is the repository made by me while learning git from the video of Code With Harry in Youtube. All the files and folder are made in learning phase from the reference of that video. 
 
 ![Have_Video](https://img.shields.io/badge/Let's_start!-OK-54b09f.svg)
 
