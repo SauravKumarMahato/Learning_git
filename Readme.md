@@ -182,6 +182,6 @@ git reset HEAD~1
 -(undo one commit and also undo files from staging area)
   
 ```diff
-  git reset HEAD~1
+  git reset --hard HEAD~1
 ```
   -(undo one commit, undo files from staging area and removes file from working directory as well)
