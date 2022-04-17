@@ -11,6 +11,10 @@ https://training.github.com/downloads/github-git-cheat-sheet.pdf
 ## Git visual cheatsheet
 https://ndpsoftware.com/git-cheatsheet.html#loc=index;
 
+## Git Tutorials: 
+- Download from here:
+https://tutsnode.net/git-github-essentials-for-version-control-management/
+
 
 ![Have_Video](https://img.shields.io/badge/Let's_start!-OK-54b09f.svg)
 
