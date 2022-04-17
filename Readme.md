@@ -72,62 +72,95 @@ Note: main/master branch, both are same
 - Detached head occurs when you check out a commit that is not in a branch.
 - The term detached head tells you that you are not viewing a head of any repository, and the head is most recent version of a branch. It is something called the tip of the branch.
 
-Note: 1. (git switch branchname) is similar to (git checkout branchname)
-      2. (git switch -c branchname) is similar to (git checkout -b branch)
+Note: 1. ```diff git switch branchname ``` is similar to ```diff git checkout branchname ```
+      2. ```diff git switch -c branchname``` is similar to ``diff git checkout -b branch```
          -to create and switch branch at sametime
          
 ## git ls-files
+```diff
+git ls-files
+```
 - shows files in staging area
 
 ## For restoring changes
-- git restore filename.extension 
-  ( to undo changes in the given files)
-- git restore . 
-  (to undo all changes in all files)
+```diff
+git restore filename.extension 
+```
+-(to undo changes in the given files)
+```diff
+git restore . 
+```
+- (to undo all changes in all files)
 
 Equivalent:
-- git checkout filename.extension 
- (to undo changes in the given files)
-- git checkout . 
-  (to undo all changes in all files)
+```diff 
+git checkout filename.extension 
+```
+- (to undo changes in the given files)
+```diff
+git checkout . 
+```
+- (to undo all changes in all files)
       
 ## Clean
-- git clean -dn 
- (removes files but shows for us what will be removed)
-- git clean -df 
-  (will remove newly created unstaged files forcely i.e. done forcely(df) )
+```diff
+git clean -dn 
+```
+-(removes files but shows for us what will be removed)
+```diff
+git clean -df 
+```
+- (will remove newly created unstaged files forcely i.e. done forcely(df) )
   
 ## Text Editors you can use (based on linux)
 CAT
-- cat > test.txt
- (will create file and wait for the input)
+```diff
+cat > test.txt
+```
+- will create file and wait for the input)
 - (ctrl+c)
-  to get out of file or close file while using cat
+- to get out of file or close file while using cat
  
  ECHO
- - echo "your text">filename.extension
+ ```diff 
+ echo "your text">filename.extension
+ ```
+  ```diff
   e.g. echo "hello folks">test.txt
- - echo null>filename.extension 
-   (for nothing inside file)
+  ```
+```diff
+echo null>filename.extension 
+```
+-(for nothing inside file)
 
 VIM
-- vim filename.extension 
-  (to create file of given extension)
-- vim filename.extension
-  (to view file)
+```diff
+vim filename.extension 
+```
+-(to create file of given extension)
+```diff
+vim filename.extension
+```
+-(to view file)
   
  Note: (press i to insert text inside file after opening the file)
        (press escape i.e. esc and type :wq to save and quit from file)
 
 TOUCH COMMAND
-- touch filename.extension
-  (to create file of the given extension)
+```diff
+touch filename.extension
+```
+-(to create file of the given extension)
 
 ## RESTORE (from staging area)
-- git restore --staged filename
-  (to restore the given file)
-- git restore --staged . 
-  (to resttore all files from staging area)
+```diff 
+git restore --staged filename
+```
+-(to restore the given file)
+```diff
+git restore --staged . 
+```
+-(to resttore all files from staging area)
 
 ## Reset
 - There are three types of reset and they are
@@ -135,13 +168,20 @@ TOUCH COMMAND
  2. default reset
  3. hard reset
 
-- git reset --soft HEAD~1
-  (only resets the commit i.e. one commit will be removed but file is still in staging area.)
-  You can check it by 
-  git ls-files
+```diff
+git reset --soft HEAD~1
+```
+-(only resets the commit i.e. one commit will be removed but file is still in staging area.)
+-You can check it by 
+```diff 
+git ls-files
+```
+```diff  
+git reset HEAD~1
+```
+-(undo one commit and also undo files from staging area)
   
-- git reset HEAD~1
-  (undo one commit and also undo files from staging area)
- 
- - git reset HEAD~1
-  (undo one commit, undo files from staging area and removes file from working directory as well)
+```diff
+  git reset HEAD~1
+```
+  -(undo one commit, undo files from staging area and removes file from working directory as well)
