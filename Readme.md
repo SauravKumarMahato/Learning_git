@@ -124,7 +124,7 @@ git checkout .
 ```diff
 git clean -dn 
 ```
--removes files but shows for us what will be removed
+- removes files but shows for us what will be removed
 ```diff
 git clean -df 
 ```
