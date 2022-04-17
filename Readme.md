@@ -100,39 +100,39 @@ git ls-files
 ```diff
 git restore filename.extension 
 ```
--(to undo changes in the given files)
+- to undo changes in the given files
 ```diff
 git restore . 
 ```
-- (to undo all changes in all files)
+- to undo all changes in all files
 
 Equivalent:
 ```diff 
 git checkout filename.extension 
 ```
-- (to undo changes in the given files)
+- to undo changes in the given files
 ```diff
 git checkout . 
 ```
-- (to undo all changes in all files)
+- to undo all changes in all files
       
 ## Clean
 ```diff
 git clean -dn 
 ```
--(removes files but shows for us what will be removed)
+-removes files but shows for us what will be removed
 ```diff
 git clean -df 
 ```
-- (will remove newly created unstaged files forcely i.e. done forcely(df) )
+- will remove newly created unstaged files forcely i.e. done forcely(df) 
   
 ## Text Editors you can use (based on linux)
 CAT
 ```diff
 cat > test.txt
 ```
-- will create file and wait for the input)
-- (ctrl+c)
+- will create file and wait for the input
+- ctrl+c
 - to get out of file or close file while using cat
  
  ECHO
@@ -145,17 +145,17 @@ cat > test.txt
 ```diff
 echo null>filename.extension 
 ```
--(for nothing inside file)
+- for nothing inside file
 
 VIM
 ```diff
 vim filename.extension 
 ```
--(to create file of given extension)
+- to create file of given extension
 ```diff
 vim filename.extension
 ```
--(to view file)
+- to view file
   
  Note: (press i to insert text inside file after opening the file)
        (press escape i.e. esc and type :wq to save and quit from file)
@@ -164,17 +164,17 @@ TOUCH COMMAND
 ```diff
 touch filename.extension
 ```
--(to create file of the given extension)
+- to create file of the given extension
 
 ## RESTORE (from staging area)
 ```diff 
 git restore --staged filename
 ```
--(to restore the given file)
+- to restore the given file
 ```diff
 git restore --staged . 
 ```
--(to resttore all files from staging area)
+- to resttore all files from staging area
 
 ## Reset
 - There are three types of reset and they are
@@ -185,17 +185,17 @@ git restore --staged .
 ```diff
 git reset --soft HEAD~1
 ```
--(only resets the commit i.e. one commit will be removed but file is still in staging area.)
--You can check it by 
+- only resets the commit i.e. one commit will be removed but file is still in staging area
+- You can check it by 
 ```diff 
 git ls-files
 ```
 ```diff  
 git reset HEAD~1
 ```
--(undo one commit and also undo files from staging area)
+- (undo one commit and also undo files from staging area)
   
 ```diff
   git reset --hard HEAD~1
 ```
-  -(undo one commit, undo files from staging area and removes file from working directory as well)
+- (undo one commit, undo files from staging area and removes file from working directory as well)
