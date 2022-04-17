@@ -43,5 +43,105 @@ It is the repository made by me while learning git from the video of Code With H
  mkdir------------------------------------------- (make new directory or folder)
  rmdir ------------------------------------------ (remove or delete directory)
 ```
-### Hope this video and this repository will help you to learn git.
 
+
+## Git
+- Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+- It is a version control systen (VCS).
+
+## Commit
+- Git commit actually means record changes to the repository. 
+- commitis just a snapshot of a moment. 
+- when you commit, you do not copy, paster or overwrite files, only tracks the changes that happens to file or files and modify them.
+
+Note: main/master branch, both are same
+
+## Head
+- You can think it as a current branch.
+- working with git, only one branch can be checkedout at a time.
+- This is called the head branch.
+- Also called active or currnt branch.
+- You can check it by 
+```diff
+ cat .git/HEAD
+ ```
+ - OR you may open HEAD file, inside .git directory where HEAD is currently pointing.
+
+## Detached HEAD
+- In rare cases, the head file doesn't contain the branch reference.
+- Detached head occurs when you check out a commit that is not in a branch.
+- The term detached head tells you that you are not viewing a head of any repository, and the head is most recent version of a branch. It is something called the tip of the branch.
+
+Note: 1. (git switch branchname) is similar to (git checkout branchname)
+      2. (git switch -c branchname) is similar to (git checkout -b branch)
+         -to create and switch branch at sametime
+         
+## git ls-files
+- shows files in staging area
+
+## For restoring changes
+- git restore filename.extension 
+  ( to undo changes in the given files)
+- git restore . 
+  (to undo all changes in all files)
+
+Equivalent:
+- git checkout filename.extension 
+ (to undo changes in the given files)
+- git checkout . 
+  (to undo all changes in all files)
+      
+## Clean
+- git clean -dn 
+ (removes files but shows for us what will be removed)
+- git clean -df 
+  (will remove newly created unstaged files forcely i.e. done forcely(df) )
+  
+## Text Editors you can use (based on linux)
+CAT
+- cat > test.txt
+ (will create file and wait for the input)
+- (ctrl+c)
+  to get out of file or close file while using cat
+ 
+ ECHO
+ - echo "your text">filename.extension
+  e.g. echo "hello folks">test.txt
+ - echo null>filename.extension 
+   (for nothing inside file)
+
+VIM
+- vim filename.extension 
+  (to create file of given extension)
+- vim filename.extension
+  (to view file)
+  
+ Note: (press i to insert text inside file after opening the file)
+       (press escape i.e. esc and type :wq to save and quit from file)
+
+TOUCH COMMAND
+- touch filename.extension
+  (to create file of the given extension)
+
+## RESTORE (from staging area)
+- git restore --staged filename
+  (to restore the given file)
+- git restore --staged . 
+  (to resttore all files from staging area)
+
+## Reset
+- There are three types of reset and they are
+ 1. soft reset
+ 2. default reset
+ 3. hard reset
+
+- git reset --soft HEAD~1
+  (only resets the commit i.e. one commit will be removed but file is still in staging area.)
+  You can check it by 
+  git ls-files
+  
+- git reset HEAD~1
+  (undo one commit and also undo files from staging area)
+ 
+ - git reset HEAD~1
+  (undo one commit, undo files from staging area and removes file from working directory as well)
