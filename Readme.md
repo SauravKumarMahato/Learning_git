@@ -1,6 +1,6 @@
 
 ## Git pro book:
-https://github.com/progit/progit2/releases/download/2.1.339/progit.pdf
+https://git-scm.com/book/en/v2
 
 ## Git concise material
 https://git-scm.com/docs/gittutorial
