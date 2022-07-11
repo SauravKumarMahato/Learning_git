@@ -180,7 +180,7 @@ git restore --staged .
 ```
 - to resttore all files from staging area
 
-## Reset
+## [Reset](https://wac-cdn.atlassian.com/dam/jcr:bdf5fda3-4aac-4170-ba35-58f7a66ea3c4/03%20git-reset-transparent%20kopiera.png?cdnVersion=426)
 - There are three types of reset and they are
  1. soft reset
  2. default reset
@@ -215,7 +215,7 @@ git reset HEAD~1
 - https://www.atlassian.com/git/tutorials/undoing-changes/git-revert
 
 
-## rebase
+## rebase ( alternative to git reset)
 ```diff
   git rebase <base_branch>
 ```
