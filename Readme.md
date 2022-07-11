@@ -203,3 +203,11 @@ git reset HEAD~1
   git reset --hard HEAD~1
 ```
 - (undo one commit, undo files from staging area and removes file from working directory as well)
+
+
+## revert
+```diff
+  git revert <commit id>
+```
+- removes the changes of commit (commit id) from your current HEAD  and asks for new commit message to create new commit having current head things with no (commit id) things 
+- for reference https://www.theserverside.com/tutorial/How-to-git-revert-a-commit-A-simple-undo-changes-example
