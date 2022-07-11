@@ -212,3 +212,11 @@ git reset HEAD~1
 ```
 - removes the changes of commit (commit id) from your current HEAD  and asks for new commit message to create new commit having current head things with no (commit id) things 
 - for reference https://www.theserverside.com/tutorial/How-to-git-revert-a-commit-A-simple-undo-changes-example
+
+
+## rebase
+```diff
+  git rebase <base_branch>
+```
+- base_branch shows where you want to shift you current branch base to (like shifting current branch head to base)
+- for reference https://www.atlassian.com/git/tutorials/rewriting-history/git-rebase
